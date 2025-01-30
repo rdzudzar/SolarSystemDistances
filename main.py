@@ -35,9 +35,19 @@ d1, d2, d3 = st.columns([0.27,0.4,0.27])
 with d2:
     st.title("Distances in Solar System")
 
-#col1, col2 = st.columns(2)
-#with col1:
-    pick_date = st.date_input("Pick a date", min_value=date(1900, 1, 1), value=datetime.today().date())
+
+    da = st.radio("Date Selection Options", ("Calendar", "Slider with current year"), horizontal=True)
+    if da == 'Calendar':
+        pick_date = st.date_input("Pick a date", min_value=date(1900, 1, 1), value=datetime.today().date())
+
+    if da == "Slider with current year":
+
+        start_date = date(year=2025,month=1,day=1)
+        end_date = date(year=2025,month=12,day=31)
+        max_days = end_date-start_date
+        
+        pick_date = st.slider('Select date', min_value=start_date, value=datetime.today().date() ,max_value=end_date)
+
 
     # Convert date to datetime and then to Astropy Time
     pick_date = datetime.combine(pick_date, datetime.min.time())
