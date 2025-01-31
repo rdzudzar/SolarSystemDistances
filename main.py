@@ -122,7 +122,7 @@ planet_images = {
     "Jupiter": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/290px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
     "Saturn": "https://www.opticscentral.com.au/blog/wp-content/uploads/2023/07/main-pic-of-saturn-1024x614.png",
     "Uranus": "https://i.natgeofe.com/n/c1ee2a2c-b6c8-44ad-8e29-413a49732225/42912.jpg",
-    "Neptune": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Neptune.png"
+    "Neptune": "https://github.com/rdzudzar/SolarSystemDistances/blob/main/illustrations/Neptune.png"
 }
 
 
