@@ -162,6 +162,7 @@ if orientation == "Horizontal":
     
     for i, (_, row) in enumerate(df_sorted.iterrows()):
         distance_au = str(row['Distance [AU]'])
+        distance_km = str(row['Distance [million km]'])
         with cols[i]:
             st.image(row['Image'], caption=f"{row['Body']} - {distance_au} AU", width=150)
             
