@@ -164,8 +164,8 @@ with d2:
         column_config={
             "Image": st.column_config.ImageColumn("Image", help="Astronomical object image"),
             "Body": st.column_config.Column("Body"),
-            "Distance [AU]": st.column_config.Column("Distance [AU]"),
-            "Distance [million km]": st.column_config.Column("Distance [million km]"),
+            "Distance [AU]": st.column_config.Column("[AU]"),
+            "Distance [million km]": st.column_config.Column("[million km]"),
         },
         hide_index=True,
     )
