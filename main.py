@@ -14,6 +14,10 @@ from astropy.coordinates import solar_system_ephemeris, get_body
 
 import astropy
 
+from PIL import Image
+import requests
+from io import BytesIO
+
 st.set_page_config(layout="wide")
 today = Time(datetime.now())
 
@@ -162,7 +166,7 @@ with d2:
     st.data_editor(
         df,
         column_config={
-            "Image": st.column_config.ImageColumn("Image", help="Astronomical object image"),
+            "Image": st.column_config.ImageColumn("Image"),
             "Body": st.column_config.Column("Body"),
             "Distance [AU]": st.column_config.Column("[AU]"),
             "Distance [million km]": st.column_config.Column("[million km]"),
