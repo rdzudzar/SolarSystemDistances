@@ -114,17 +114,17 @@ df = calculate_distances(selected_reference_object, time_object)
 #image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/290px-The_Earth_seen_from_Apollo_17.jpg"
 
 planet_images = {
-    "Moon": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Moon.png?token=GHSAT0AAAAAACTVEOKZTKGDQFG2NLFAAKH4Z44SH5Q",
-    "Sun": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Sun.png?token=GHSAT0AAAAAACTVEOKYFXEMF7GEIN4IMKZIZ44SBUQ",
+    "Moon": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Moon.png",
+    "Sun": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Sun.png",
     "Earth": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/290px-The_Earth_seen_from_Apollo_17.jpg",
-    "Mars": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Mars.png?token=GHSAT0AAAAAACTVEOKYUPU7VBUSBMXL5JKWZ44RXRQ",
-    "Venus": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Venus.png?token=GHSAT0AAAAAACTVEOKZX6SVCC3J647Q5Z2IZ44SB5Q",
-    "Mercury": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Mercury.png?token=GHSAT0AAAAAACTVEOKY6RW5CQDVFMHFHG62Z44SBBA",
-    "Jupiter": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Jupiter.png?token=GHSAT0AAAAAACTVEOKYGNMEBIDW3OYJ4HCUZ44RZCQ",
-    "Saturn": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Saturn.png?token=GHSAT0AAAAAACTVEOKZKWP2LZWPMRDMWF5SZ44RZNA",
-    "Uranus": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Uranus.png?token=GHSAT0AAAAAACTVEOKZL6ZURKQYX5R3DOIQZ44RZUA",
-    "Neptune": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Naptune.png?token=GHSAT0AAAAAACTVEOKZ7FSNG73ANG5WPQROZ44RZ3Q",
-    "Pluto": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Pluto.png?token=GHSAT0AAAAAACTVEOKYX6P7BK6J74RDJU2GZ44R2DA"
+    "Mars": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Mars.png",
+    "Venus": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Venus.png",
+    "Mercury": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Mercury.png",
+    "Jupiter": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Jupiter.png",
+    "Saturn": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Saturn.png",
+    "Uranus": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Uranus.png",
+    "Neptune": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Naptune.png",
+    "Pluto": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Pluto.png"
 
 }
 
