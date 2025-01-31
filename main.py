@@ -50,12 +50,12 @@ dict_ss_objects = {
     "pluto": "Pluto"
 }
 
-d1, d2, d3 = st.columns([0.27,0.4,0.27])
+d1, d2, d3 = st.columns([0.25,0.5,0.25])
 
 with d2:
     st.title("Distances in Solar System")
 
-
+    
     da = st.radio("Date Selection Options", ("Calendar", "Slider with current year"), horizontal=True)
     if da == 'Calendar':
         pick_date = st.date_input("Pick a date", min_value=date(1900, 1, 1), value=datetime.today().date())
