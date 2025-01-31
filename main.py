@@ -114,7 +114,7 @@ df = calculate_distances(selected_reference_object, time_object)
 #image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/290px-The_Earth_seen_from_Apollo_17.jpg"
 
 planet_images = {
-    "Moon": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Moon.png?token=GHSAT0AAAAAACTVEOKYERR7P4X67DPBV5DMZ44SEOA",
+    "Moon": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Moon.png?token=GHSAT0AAAAAACTVEOKZTKGDQFG2NLFAAKH4Z44SH5Q",
     "Sun": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Sun.png?token=GHSAT0AAAAAACTVEOKYFXEMF7GEIN4IMKZIZ44SBUQ",
     "Earth": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/290px-The_Earth_seen_from_Apollo_17.jpg",
     "Mars": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Mars.png?token=GHSAT0AAAAAACTVEOKYUPU7VBUSBMXL5JKWZ44RXRQ",
