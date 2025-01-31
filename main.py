@@ -177,4 +177,4 @@ st.subheader("References")
 st.markdown(f"This App is using Solar [System Ephemerides](https://docs.astropy.org/en/latest/coordinates/solarsystem.html) from [AstroPy](https://docs.astropy.org/en/latest/index.html) Python Library, Version {astropy.__version__}.")
 st.markdown("For calculation, the default JPL ephemerides (DE430) are used, which are roughly valid for years between 1550 and 2650. Here is used function get_body() for reference body and then calculated 3D distance with separation_3d.\
             Until a planetary scientist confirms that this kind of calculation is ok - take the distances with a grain of salt when using reference body that is not Earth :) ")
-st.markdown("Made by Dr Robert Dzudzar")
+st.markdown("App made by Dr Robert Dzudzar. Illustrations are my digital drawings, drawn in Procreate.")
