@@ -55,27 +55,30 @@ d1, d2, d3 = st.columns([0.25,0.5,0.25])
 with d2:
     st.title("Distances in Solar System")
 
-    
-    da = st.radio("Date Selection Options", ("Calendar", "Slider with current year"), horizontal=True)
-    if da == 'Calendar':
-        pick_date = st.date_input("Pick a date", min_value=date(1900, 1, 1), value=datetime.today().date())
-
-    if da == "Slider with current year":
-
-        start_date = date(year=2025,month=1,day=1)
-        end_date = date(year=2025,month=12,day=31)
-        max_days = end_date-start_date
+    mini1, mini2 = st.columns([0.7,0.3])
         
-        pick_date = st.slider('Select date', min_value=start_date, value=datetime.today().date() ,max_value=end_date)
-
-
-    # Convert date to datetime and then to Astropy Time
-    pick_date = datetime.combine(pick_date, datetime.min.time())
-    time_object = Time(pick_date)
-
-#with col2:
-    main_ss_object = st.selectbox("Select Reference Body", 
-                                  list(dict_ss_objects.values()))
+    da = st.radio("Date Selection Options", ("Calendar", "Slider with current year"), horizontal=True)
+    
+    with mini1:
+        if da == 'Calendar':
+            pick_date = st.date_input("Pick a date", min_value=date(1900, 1, 1), value=datetime.today().date())
+    
+        if da == "Slider with current year":
+    
+            start_date = date(year=2025,month=1,day=1)
+            end_date = date(year=2025,month=12,day=31)
+            max_days = end_date-start_date
+            
+            pick_date = st.slider('Select date', min_value=start_date, value=datetime.today().date() ,max_value=end_date)
+    
+    
+        # Convert date to datetime and then to Astropy Time
+        pick_date = datetime.combine(pick_date, datetime.min.time())
+        time_object = Time(pick_date)
+    
+    #with col2:
+        main_ss_object = st.selectbox("Select Reference Body", 
+                                      list(dict_ss_objects.values()))
     
 selected_reference_object = next(key for key, value in dict_ss_objects.items() if value == main_ss_object)
     
