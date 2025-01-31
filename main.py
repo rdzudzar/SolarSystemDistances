@@ -27,7 +27,8 @@ dict_ss_objects = {
     "jupiter": "Jupiter",
     "saturn": "Saturn",
     "uranus": "Uranus",
-    "neptune": "Neptune"
+    "neptune": "Neptune",
+    "pluto": "Pluto"
 }
 
 d1, d2, d3 = st.columns([0.27,0.4,0.27])
@@ -122,7 +123,9 @@ planet_images = {
     "Jupiter": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/290px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
     "Saturn": "https://www.opticscentral.com.au/blog/wp-content/uploads/2023/07/main-pic-of-saturn-1024x614.png",
     "Uranus": "https://i.natgeofe.com/n/c1ee2a2c-b6c8-44ad-8e29-413a49732225/42912.jpg",
-    "Neptune": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Neptune.png?token=GHSAT0AAAAAACTVEOKYYBYPW35ALBXUD3F4Z44RF5Q"
+    "Neptune": "https://raw.githubusercontent.com/rdzudzar/SolarSystemDistances/refs/heads/main/illustrations/Neptune.png?token=GHSAT0AAAAAACTVEOKYYBYPW35ALBXUD3F4Z44RF5Q",
+    "Pluto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUQs1ZXZHC9MDy318o5ZZo_mI43-Ma3wYkoA&s"
+
 }
 
 
