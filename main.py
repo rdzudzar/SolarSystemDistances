@@ -17,6 +17,25 @@ import astropy
 st.set_page_config(layout="wide")
 today = Time(datetime.now())
 
+# Set background image
+#def set_bg_image(image_url):
+#    st.markdown(
+#        f"""
+#        <style>
+#        .stApp {{
+#            background-image: url({image_url});
+#            background-size: cover;
+#            background-position: center;
+#            background-repeat: no-repeat;
+#        }}
+#        </style>
+#        """,
+#        unsafe_allow_html=True
+#    )
+#
+#set_bg_image("")
+
+
 dict_ss_objects = {
     "earth": "Earth",
     "sun": "Sun",
