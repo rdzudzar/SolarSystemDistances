@@ -59,9 +59,9 @@ d1, d2, d3 = st.columns([0.25,0.5,0.25])
 with d2:
     st.title("Distances in Solar System")
 
-    mini1, mini2 = st.columns([0.7,0.3])
-        
     da = st.radio("Date Selection Options", ("Calendar", "Slider with current year"), horizontal=True)
+    
+    mini1, mini2 = st.columns([0.7,0.3])
     
     with mini1:
         if da == 'Calendar':
