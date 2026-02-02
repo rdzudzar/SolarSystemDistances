@@ -70,7 +70,7 @@ with d2:
         if da == "Slider with current year":
     
             start_date = date(year=2025,month=1,day=1)
-            end_date = date(year=2025,month=12,day=31)
+            end_date = date(year=2026,month=12,day=31)
             max_days = end_date-start_date
             
             pick_date = st.slider('Select date', min_value=start_date, value=datetime.today().date() ,max_value=end_date)
